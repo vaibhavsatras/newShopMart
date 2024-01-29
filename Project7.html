@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Mart</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="Project.css">
+
+    <!-- Bootstratp CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Bootstrap Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/46bdfef9f5.js" crossorigin="anonymous"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <!-- Fav Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+
+
+</head>
+<style>
+    body {
+        /* background-color: #e9f2f2; */
+    }
+</style>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md bg-white navbar-light shadow  mb-3 fixed-top" id="navabar1">
+        <div class="container">
+
+            <h3><a href="" class="navbar-brand heading">SHOP <span class="text-danger">MART</span></a></h3>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#slider" class="nav-link active"><i class="fa-solid fa-house me-2"></i>Home</a></li>
+                    <li class="nav-item"><a href="#offers" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#testimonial" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#contactus" class="nav-link">Contct Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+
+    <section class="carousel slide banner  overflow-hidden" data-bs-ride="carousel" id="slider">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="home-banner banner-1">
+                    <div class="banner-text">
+                        <h1>Woomen</h1>
+                        <h2>50% Discount For This Season</h2>
+                        <a href="#" class="btn btn-outline-danger  mt-4">Our product</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="home-banner banner-2">
+                    <div class="banner-text">
+                        <h1>Woomen</h1>
+                        <h2>50% Discount For This Season</h2>
+                        <a href="#" class="btn btn-outline-danger mt-4">Our Product</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+
+                <div class="home-banner banner-3">
+                    <div class="banner-text">
+                        <h1>Woomen</h1>
+                        <h2>50% Discount For This Season</h2>
+                        <a href="#" class="btn btn-outline-danger mt-4">Our product</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <button data-bs-target="#slider" class="carousel-control-prev cr-slider" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left text-dark fs-3"></i>
+            <!-- <span class="carousel-control-prev-icon cr-slider"></span> -->
+        </button>
+        <button data-bs-target="#slider" class="carousel-control-next icon1" data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right text-dark fs-3"></i>
+
+            <!-- <span class="carousel-control-next-icon cr-slider"></span> -->
+        </button>
+
+
+        <ul class="carousel-indicators">
+            <li data-bs-target="#slider" data-bs-slide-to="0" class="active bg-dark"></li>
+            <li data-bs-target="#slider" data-bs-slide-to="1" class="bg-dark"></li>
+            <li data-bs-target="#slider" data-bs-slide-to="2" class="bg-dark"></li>
+        </ul>
+    </section>
+    <!-- Offer -->
+
+    <div class="offers" id="offers">
+        <div class="container">
+            <div class="row">
+
+                <!-- First  Column -->
+
+                <div class="col-lg-4 col-sm-12 m-0 mb-4">
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner shadow-lg">
+                                <div class="offer-image position-relative overflow-hidden rounded">
+                                    <img src="offer1.jpg" alt="img" class="img-fluid">
+                                    <div class="offer-overlay">
+                                    </div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="info-inner">
+                                        <p class="headline-beager text-center  m-0">Sale 10%</p>
+                                        <p class="offer-title1 text-center">Don't Miss The Chance</p>
+                                        <button class="btn btn-outline-danger mt-2 text-white">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 2nd Column -->
+
+                <div class="col-lg-4 col-sm-12 mb-4 d-flex flex-column justify-content-between">
+                    <a href="#">
+                        <div class="offer-box text-center position-relative mb-4 m-0">
+                            <div class="offer-inner shadow-lg">
+                                <div class="offer-image position-relative overflow-hidden rounded" id="img1">
+                                    <img src="offer2.jpg" alt="img" class="img-thumbnail img-fluid">
+                                    <div class="offer-overlay">
+                                    </div>
+                                </div>
+                                <div class="offer-info offer-info-1">
+                                    <div class="info-inner">
+                                        <p class="headline-beager text-center  m-0">Sale 20%</p>
+                                        <p class="offer-title1 text-center">Don't Miss The Chance</p>
+                                        <button class="btn btn-outline-danger mt-2 text-white">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner shadow-lg">
+                                <div class="offer-image position-relative overflow-hidden rounded" id="img2">
+                                    <img src="offer4.jpg" alt="img" class="img-fluid">
+                                    <div class="offer-overlay">
+                                    </div>
+                                </div>
+                                <div class="offer-info  offer-info-1">
+                                    <div class="info-inner">
+                                        <p class="headline-beager text-center  m-0">Sale 15%</p>
+                                        <p class="offer-title1 text-center">Don't Miss The Chance</p>
+                                        <button class="btn btn-outline-danger mt-2 text-white">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 3rd Column -->
+                <div class="col-lg-4 col-sm-12 m-0 mb-4">
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner shadow-lg">
+                                <div class="offer-image position-relative overflow-hidden rounded">
+                                    <img src="offer3.jpg" alt="img" class="img-fluid">
+                                    <div class="offer-overlay">
+                                    </div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="info-inner">
+                                        <p class="headline-beager text-center m-0">Sale 20%</p>
+                                        <p class="offer-title1 text-center ">Don't Miss The Chance</p>
+                                        <button class="btn btn-outline-danger mt-2 text-white">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Products -->
+
+    <div class="products" id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="headline text-center mt-4">
+                        <h3 class="position-relative mb-2 inline-block">Products</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <br>
+                                <img src="p-1-2.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-3-1.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Black Net Cotton Frock</h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+
+                                <br>
+                                <img src="p-2-2.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-2-1.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Pink Welvet Frock</h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+
+                                <br>
+                                <img src="p-1-1.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-3-2.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Yellow Stylish Frock</h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+
+                                <br>
+                                <img src="p-4-1.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-4-2.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Orange Stylish Frock</h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <br>
+                                <img src="p-5-2.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-5-1.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Pink Welvet Frock </h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+
+                                <br>
+                                <img src="p-6-1.jpg" alt="jpg" class="img-fluid first-image">
+                                <img src="p-6-2.jpg" alt="jpg" class="img-fluid second-image">
+                            </div>
+                            <div class="poduct-details pt-2">
+                                <h3 class="text-capitalize">Net Welvet Stylish</h3>
+                                <p class="amount">Rs.400.00 <del>Rs.580.00</del></p>
+                                <div class="py-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button type="button" class="add-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="up-to pt-5 pb-5 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="upto-off position-relative rounded">
+                        <img src="img3.jpeg" alt="img" class="img-fluid">
+                        <div class="up-to-content">
+                            <h3 class="heading">Up To 30% Off</h3>
+                            <p>Hurry Up Offer is only for Limited Time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="spaecial-container my-4 mb-4">
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="headline text-center mt-5">
+                        <h3 class="position-relative mb-2 inline-block">SPECIAL OFFER</h3>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12 mt-4">
+                    <div class="special-offer">
+                        <h5>Sexy Women Floral Embrodary</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Dolorem
+                            exercitationem eum eligendi laborum sunt iste sequi expedita incidunt atque
+                            reiciendis.</p>
+                        <ul class="counter-container list-unstyled mt-5">
+                            <li><span class="d-block fs-5" id="day">00</span>Day</li>
+                            <li><span class="d-block fs-5" id="hour">00</span>Hrs</li>
+                            <li><span class="d-block fs-5" id="minutes">00</span>Min</li>
+                            <li><span class="d-block fs-5" id="second">00</span>Sec</li>
+                        </ul>
+
+                        <span class="d-block counter-price d-block h4">Rs.400 <del>Rs.500</del></span>
+                        <button class="btn btn-outline-danger">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-12 mt-5 text-end">
+                    <div class="speceial-offer-img position-relative">
+                        <span class="badge bg-danger special-sale text-uppercase">Sale</span>
+                        <div class="special-image">
+                            <img src="p-3-1.jpg" alt="img" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimionals -->
+
+    <div class="testimonials" id="testimonial">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="headline text-center mt-5">
+                    <h3 class="position-relative mb-2 inline-block">TESTIMONIALS</h3>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5 mb-5">
+                <div class="carousel slide banner  overflow-hidden" data-bs-ride="carousel" id="testi">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testi-container">
+                                <div class="row">
+                                    <div class="col-12 testi-image">
+                                        <img src="testi1.jpg" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="testi-content position-relative">
+                                        <h4>Manish Malhotra</h4>
+                                        <h3 class="text-uppercase">Khaab Bridal Couture</h3>
+                                        <div class="paragraph">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    viewBox="0 0 24 24" class="position-absolute svgicon-1">
+                                                    <path
+                                                        d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                                                </svg>
+                                                Manish's vast portfolio includes big-budget, big-banner, and mainstream
+                                                Bollywood movies like <br> Dil to Pagal Hain, Judaai, Dilwale Dulhania
+                                                Le
+                                                Jayenge, and many others. <br>Manish malhotra who is the most popular
+                                                fashion designer in current fashion industry.</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 24 24" class="position-absolute svgicon2-1">
+                                                <path
+                                                    d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testi-container">
+                                <div class="row">
+                                    <div class="col-12 testi-image">
+                                        <img src="testi2.jpg" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="testi-content position-relative">
+                                        <h4>Neeta Lulla</h4>
+                                        <h3>THE BRAND</h3>
+                                        <div class="paragraph">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    viewBox="0 0 24 24" class="position-absolute svgicon-2">
+                                                    <path
+                                                        d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                                                </svg>
+                                                Neeta Lulla is another name you must have encountered while reading
+                                                fashion
+                                                magazines,<br> news, or updates. This incredibly talented designer has
+                                                been
+                                                in
+                                                the fashion industry <br>for over three and a half decades.</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 24 24" class="position-absolute svgicon2-2">
+                                                <path
+                                                    d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testi-container">
+                                <div class="row">
+                                    <div class="col-12 testi-image">
+                                        <img src="testi3.jpg" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="testi-content position-relative">
+                                        <h4>Anita Dongre</h4>
+                                        <h3>ONLY BRAND</h3>
+                                        <div class="paragraph">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                    viewBox="0 0 24 24" class="position-absolute svgicon-3">
+                                                    <path
+                                                        d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                                                </svg>
+                                                Have you been fascinated by the outfits of Katrina Kaif, Alia Bhatt, or
+                                                Kriti
+                                                Sanon? <br>Then one of the talents behind those attires is Anita Dongre.
+                                                <br> Anita
+                                                is another inspiring fashion designer and entrepreneur.
+                                            </p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 24 24" class="position-absolute svgicon2-3">
+                                                <path
+                                                    d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <button data-bs-target="#testi" class="carousel-control-prev cr-slider" data-bs-slide="prev">
+
+                        <i class="fa-solid fa-chevron-left text-dark fs-3"></i>
+                        <!-- <span class="carousel-control-prev-icon cr-slider text-dark"></span> -->
+                    </button>
+                    <button data-bs-target="#testi" class="carousel-control-next" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right text-dark fs-3"></i>
+                        <!-- <span class="carousel-control-next-icon cr-slider"></span> -->
+                    </button>
+                    <ul class="carousel-indicators">
+                        <li data-bs-target="#testi" data-bs-slide-to="0" class="active bg-dark"></li>
+                        <li data-bs-target="#testi" data-bs-slide-to="1" class="bg-dark"></li>
+                        <li data-bs-target="#testi" data-bs-slide-to="2" class="bg-dark"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Us  -->
+
+    <div class="contact-us mt-3 mb-5 bg-light" id="contactus">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="headline text-center mt-5">
+                        <h3 class="position-relative mb-2 inline-block">CONTACT US</h3>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 mt-5">
+                    <h4>Contact info</h4>
+                    <div class="d-flex gap-2 contact-info mt-5">
+                        <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                        <a href="#" class="text-decoration-none">More Vasti, Chikhali, Pune Maharashtra - 411062</a>
+                    </div>
+                    <div class="d-flex gap-2 contact-info">
+                        <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                        <a href="#" class="text-decoration-none">+91 9795592502</a>
+                    </div>
+                    <div class="d-flex gap-2 contact-info">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <a href="#" class="text-decoration-none">vaibhavsatras5@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 mt-5">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group form-info shadow">
+                                    <div class="input-group form-detail">
+                                        <div class="input-group-text">
+                                            <i class="fa-solid fa-user"></i>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group form-info shadow">
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="Emai Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group form-info">
+                                    <textarea cols="10" rows="5" class="form-control shadow"
+                                        placeholder="Enter Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group form-info">
+                                    <button type="button" class="btn btn-danger"><i
+                                            class="fa-regular fa-paper-plane me-2"></i>Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer1">
+        <div class="container">
+            <div class="">
+                <div class="row footer-content">
+                    <div class="col-6 footer-text mt-1 p-0">
+                        <h3>Copyright@vbs.infosystems</h3>
+                    </div>
+                    <div class="col-md-6 col-lg-6 footer-list mt-1 p-0">
+                        <ul class="d-flex list-unstyled">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="project.js"></script>
+</body>
+
+
+</html>
